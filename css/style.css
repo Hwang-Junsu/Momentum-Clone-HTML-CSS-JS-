@@ -2,7 +2,6 @@
 
 .hidden {
   display: none;
-  transition: 0.5s;
 }
 
 body {
@@ -62,6 +61,11 @@ body {
   height: auto;
   background-color: rgba(0, 0, 0, 0);
   color: white;
+  font-size: 2vw;
+}
+
+#login-form input:last-child:hover {
+  cursor: pointer;
 }
 
 #todo-form input {
@@ -180,6 +184,7 @@ input::placeholder {
   transform: scale(1.3);
   transition: 0.1s;
   color: yellow;
+  cursor: pointer;
 }
 
 #dday_box {
